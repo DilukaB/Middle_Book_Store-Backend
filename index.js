@@ -26,7 +26,7 @@ app.use("/api/admin", adminRoutes)
 
 
 app.get('/', (req, res) => {
-    res.send("Bookstore Server is running");
+    res.send("Bookstore Server is successfully running");
 });
 
 // MongoDB connection and server setup
